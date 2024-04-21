@@ -1,0 +1,45 @@
+/* CourseGoal.css */
+
+.appContainer {
+  flex: 1;
+  padding-top: 50;
+  padding-inline: 15;
+  /* padding-horizontal: 16; */
+}
+
+.inputContainer {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20;
+  padding-bottom: 15;
+  border-bottom-width: 1;
+  border-color: #cccccc;
+}
+
+.textInput {
+  border-width: 1;
+  border-color: #cccccc;
+  border-radius: 20;
+  width: 70%;
+  margin-right: 8;
+  padding: 8;
+  padding-inline: 15;
+  /* padding-horizontal: 15; */
+}
+
+.goalsContainer {
+  flex: 5;
+}
+
+.goalItem {
+  margin: 7;
+  padding: 15;
+  border-radius: 20;
+  background-color: purple;
+}
+
+.goalText {
+  font-size: 16;
+  color: white;
+}
